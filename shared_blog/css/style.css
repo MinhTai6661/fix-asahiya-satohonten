@@ -1,0 +1,106 @@
+body {
+	background:#fff
+}
+#header .hd_logo {
+	color: #000;
+	font-size: 70px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	padding: 7% 0;
+}
+#header .hd_logo a {
+	color: #000;
+}
+#header .hd_logo a:hover {
+	text-decoration: none;
+}
+#header .navbar {
+	background: #EBEBEB;
+	border: 0;
+	border-radius: 0;
+}
+#header .navbar a {
+}
+.title_df {
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0 -15px 10px;
+	padding: 5px 0;
+	text-align: center;
+	background: #C0A98A
+}
+#footer {
+	padding: 50px 0 0 0;
+	border-top:1px #666 solid; padding-top:10px ;  
+font-weight:normal;
+font-size:24px;
+text-align:center;
+}
+#footer .ft_logo {
+	font-weight: bold;
+	font-size: 60px;
+}
+.fnavi_bg {
+	background: #f0dfb4
+}
+.box_df ul {
+	padding-left: 2em;
+}
+.box_df li {
+	padding: 5px 0
+}
+.box_df a {
+	text-transform: capitalize;
+	color: #000;
+}
+.box_df a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+img {
+	max-width: 100%
+}
+.box_img {
+	padding-bottom: 10px;
+}
+#container {
+	padding-bottom: 2%;
+	min-height: 500px;
+}
+.pagination {
+	text-align:center;
+	}
+div.pagination > ul > li {
+    display: inline-block;
+}
+div.pagination > ul > li.active {
+    cursor: none;
+}
+div.pagination > ul > li > a, div.pagination > ul > a {
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+	color: #000;
+}
+div.pagination > ul > li.active > a {
+    color: red !important;
+}
+div.pagination > ul > li.active > a:hover {
+    color: red !important;
+    cursor: default !important;
+}
+div.pagination > ul > li > a:hover {
+    cursor: pointer;
+}
+div.pagination > ul > li {
+    color: #010101;
+}
+div.pagination > ul > li.more-point-left {
+    margin-left: -5px;
+    vertical-align: sub;
+}
+div.pagination > ul > li.more-point-right {
+    margin-right: -5px;
+    vertical-align: sub;
+}

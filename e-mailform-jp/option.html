@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js responsive" lang="ja"><![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js responsive" lang="ja"><![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 ie-lt10 ie-lt9 no-js responsive" lang="ja"><![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9 ie-lt10 no-js responsive" lang="ja"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js responsive" lang="ja"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1">
+    <meta name="author" content="FOODCONNECTION">
+    <title>[option] オプション一覧</title>
+
+
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no">
+
+    <!-- Profiles -->
+    <link rel="profile" href="http://microformats.org/profile/hcard">
+    <link rel="shortcut icon" href="shared/img/shared/favicon.ico">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="shared/css/autoload.css">
+    <link rel="stylesheet" href="shared/css/common.css">
+    <link rel="stylesheet" href="shared/css/FCMailer.css">
+    <link rel="stylesheet" href="shared/css/FCMailer.extend.css">
+    <link rel="stylesheet" href="shared/css/shared.css">
+</head>
+<body>
+<main>
+    <section>
+        <div id="lead">
+            <div class="fcform fnt-mincho">
+                <div class="fcform__title">オプション一覧</div>
+                <div class="wrap">
+
+                    <div class="fcform__main">
+                        <div class="fc-form" data-display="slide" data-debug="false" data-language="jp">
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="furigana">フリガナ</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <input type="text" name="furigana" value="" placeholder="ヤマダ　タロウ" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' furigana '});">
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="year month day" data-join="　">生年月日</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <div class="form-block form-block-auto s-medium">
+                                        <div class="form-group x3">
+                                            <div class="form-box form-value" data-after="年">
+                                                <div class="form-block">
+                                                    <div class="form-group form-inline">
+                                                        <div class="form-box"><input type="text" name="year" value=""
+                                                                                     min="0" placeholder="1980"
+                                                                                     class="require check-number" onfocus="gtag('event','input',{'event_category':'form','event_label':' year '});">
+                                                        </div>
+                                                        <div class="form-box">年</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-box form-value" data-after="月">
+                                                <div class="form-block">
+                                                    <div class="form-group form-inline">
+                                                        <div class="form-box">
+                                                            <div class="i-dropdown">
+                                                                <select name="month" onfocus="gtag('event','input',{'event_category':'form','event_label':' month '});">
+                                                                    <option value="" selected>選択</option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                    <option value="6">6</option>
+                                                                    <option value="7">7</option>
+                                                                    <option value="8">8</option>
+                                                                    <option value="9">9</option>
+                                                                    <option value="10">10</option>
+                                                                    <option value="11">11</option>
+                                                                    <option value="12">12</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-box">月</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-box form-value" data-after="日">
+                                                <div class="form-block">
+                                                    <div class="form-group form-inline">
+                                                        <div class="form-box">
+                                                            <div class="i-dropdown">
+                                                                <select name="day" onfocus="gtag('event','input',{'event_category':'form','event_label':' day '});">
+                                                                    <option value="" selected>選択</option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                    <option value="6">6</option>
+                                                                    <option value="7">7</option>
+                                                                    <option value="8">8</option>
+                                                                    <option value="9">9</option>
+                                                                    <option value="10">10</option>
+                                                                    <option value="11">11</option>
+                                                                    <option value="12">12</option>
+                                                                    <option value="13">13</option>
+                                                                    <option value="14">14</option>
+                                                                    <option value="15">15</option>
+                                                                    <option value="16">16</option>
+                                                                    <option value="17">17</option>
+                                                                    <option value="18">18</option>
+                                                                    <option value="19">19</option>
+                                                                    <option value="20">20</option>
+                                                                    <option value="21">21</option>
+                                                                    <option value="22">22</option>
+                                                                    <option value="23">23</option>
+                                                                    <option value="24">24</option>
+                                                                    <option value="25">25</option>
+                                                                    <option value="26">26</option>
+                                                                    <option value="27">27</option>
+                                                                    <option value="28">28</option>
+                                                                    <option value="29">29</option>
+                                                                    <option value="30">30</option>
+                                                                    <option value="31">31</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-box">日</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                    <div class="error-number">無効な数値</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="adult children">ご利用人数</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <div class="form-block form-block-auto s-large">
+                                        <div class="form-group x2">
+                                            <div class="form-box form-value" data-before="大人" data-after="人">
+                                                <div class="form-block">
+                                                    <div class="form-group form-inline">
+                                                        <div class="form-box">大人</div>
+                                                        <div class="form-box">
+                                                            <input type="number" name="adult" value="" min="0"
+                                                                   placeholder="00" class="require check-number" onfocus="gtag('event','input',{'event_category':'form','event_label':' adult '});">
+                                                        </div>
+                                                        <div class="form-box">人</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-box form-value" data-before="小人" data-after="人">
+                                                <div class="form-block">
+                                                    <div class="form-group form-inline">
+                                                        <div class="form-box">小人</div>
+                                                        <div class="form-box">
+                                                            <input type="number" name="children" value="" min="0"
+                                                                   placeholder="00" class="require check-number" onfocus="gtag('event','input',{'event_category':'form','event_label':' children '});">
+                                                        </div>
+                                                        <div class="form-box">人</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+
+                            <br>（人数制限がある場合：プルダウン形式）
+
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="people">ご利用人数</span>
+                                    </div>
+                                </div>
+                                <div class="form-value" data-after="人">
+                                    <div class="form-block">
+                                        <div class="form-group form-inline">
+                                            <div class="form-box">
+
+                                                <select name="people" class="require  check-number" onfocus="gtag('event','input',{'event_category':'form','event_label':' people '});">
+                                                    <option value="" selected>選択してください</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+
+                                                </select>
+
+
+                                            </div>
+                                            <div class="form-box">人</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                    <div class="error-number">無効な数値</div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="course">ご予約内容</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <div class="i-dropdown">
+                                        <select name="course" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' course '});">
+                                            <option value="" selected>選択してください</option>
+                                            <option value="コース名サンプル1">コース名サンプル1</option>
+                                            <option value="コース名サンプル2">コース名サンプル2</option>
+                                            <option value="コース名サンプル3">コース名サンプル3</option>
+                                            <option value="コース名サンプル4">コース名サンプル4</option>
+                                            <option value="コース名サンプル5">コース名サンプル5</option>
+                                            <option value="席のみ予約">席のみ予約</option>
+                                            <optgroup label=""></optgroup>
+                                        </select>
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="seat">ご希望のお席</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <div class="i-list">
+                                        <label class="i-custom"><input type="checkbox" name="seat" value="個室"
+                                                                       class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' seat '});">
+                                            <span>個室</span></label>
+                                        <label class="i-custom"><input type="checkbox" name="seat" value="カウンター"
+                                                                       class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' seat '});">
+                                            <span>カウンター</span></label>
+                                        <label class="i-custom"><input type="checkbox" name="seat" value="テーブル"
+                                                                       class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' seat '});">
+                                            <span>テーブル</span></label>
+                                        <label class="i-custom"><input type="checkbox" name="seat" value="座敷"
+                                                                       class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' seat '});">
+                                            <span>座敷</span></label>
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="scene">ご利用シーン</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <div class="i-dropdown">
+                                        <select name="scene" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' scene '});">
+                                            <option value="">選択してください</option>
+                                            <option value="誕生日">誕生日</option>
+                                            <option value="知人・友人との会食">知人・友人との会食</option>
+                                            <option value="合コン・飲み会">合コン・飲み会</option>
+                                            <option value="結婚記念日">結婚記念日</option>
+                                            <option value="家族との会食">家族との会食</option>
+                                            <option value="その他">その他</option>
+                                            <optgroup label=""></optgroup>
+                                        </select>
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="address">ご住所</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <input type="text" name="address" value="" placeholder="東京都〇〇区" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' address '});">
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--askerisk">必須</span>
+                                        <span class="caption--text" data-for="method">ご連絡方法</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <div class="i-list">
+                                        <label class="i-custom"><input type="checkbox" name="method" value="メール"
+                                                                       class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' method '});">
+                                            <span>メール</span></label>
+                                        <label class="i-custom"><input type="checkbox" name="method" value="電話"
+                                                                       class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' method '});">
+                                            <span>電話</span></label>
+                                    </div>
+                                    <div class="error">必須項目です</div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="form-caption vtop">
+                                    <div class="caption-inline">
+                                        <span class="caption--text" data-for="message">備考</span>
+                                    </div>
+                                </div>
+                                <div class="form-value">
+                                    <textarea name="message" class="auto-resize" onfocus="gtag('event','input',{'event_category':'form','event_label':' message '});"></textarea>
+                                </div>
+                            </div>
+
+
+                            <!--div class="form-button">
+                                <div class="submit-confirm">
+                                    <div class="form-block">
+                                        <button type="submit" class="form-submit" data-beforeClick="beforeSend" data-afterClick="afterSend">この内容で送信する</button>
+                                    </div>
+                                    <div class="form-block">
+                                        <button type="button" class="form-back" data-beforeClick="beforeBack" data-afterClick="afterBack">入力を修正する</button>
+                                    </div>
+                                </div>
+                                <div class="submit-form">
+                                    <div class="form-block">
+                                        <button type="submit" class="form-submit" data-beforeClick="beforeConfirm" data-afterClick="afterConfirm">入力内容の確認へ進む</button>
+                                    </div>
+                                </div>
+                            </div-->
+                        </div>
+                        <div id="thanks" class="fc-thanks">
+                            <p class="thanks-message">予約フォームを受付けました。<br>入力いただいた予約内容はまだ確定ではありません。<br>当店より折り返しご連絡を差し上げてからの、ご予約成立となります。<br>受け取り後2～3営業日以内にはメール、もしくはお電話にてお返事差し上げます。
+                            </p>
+                            <p class="thanks-button"><a href="index.html">サイトへ戻る</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Libraries script -->
+<script>
+    "use strict";
+
+    if (typeof ga === "undefined" || !ga || ga.constructor !== Function) var ga = function () {
+    }; // define ga() for Google Analytics if it is not defined
+
+    if (location.hash && location.hash.substr(0, 1) == "#") { // recommend: vanilla JS
+        if (document.querySelector(location.hash) !== null) {
+            var $fcForm = document.querySelectorAll(".fc-form"),
+                $progressStep = document.querySelectorAll(".fcform__progress-step");
+
+            if ($fcForm.length > 0) {
+                [].forEach.call($fcForm, function (elm) {
+                    elm.style.display = "none";
+                });
+            }
+
+            if ($progressStep.length > 0) {
+                [].forEach.call($progressStep, function (elm) {
+                    if (!elm.classList.contains("active")) elm.classList.add("active");
+                });
+            }
+
+            document.querySelector(location.hash).style.display = "block";
+        }
+    }
+</script>
+<script src="shared/js/autoload.js"></script>
+<script src="shared/js/common.js"></script>
+<script src="shared/js/FCMailer.js"></script>
+<script src="shared/js/FCMailer.extend.js"></script>
+<script src="shared/js/shared.js"></script>
+</body>
+</html>

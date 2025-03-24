@@ -1,0 +1,383 @@
+:root {
+  --scale: 1.2;
+}
+.fz10 {
+  font-size: calc(1.3vw * var(--scale) + 1vw);
+}
+.fz11 {
+  font-size: calc(1.4vw * var(--scale) + 1vw);
+}
+.fz12 {
+  font-size: calc(1.5vw * var(--scale) + 1vw);
+}
+.fz13 {
+  font-size: calc(1.6vw * var(--scale) + 1vw);
+}
+.fz14 {
+  font-size: calc(1.7vw * var(--scale) + 1vw);
+}
+.fz15 {
+  font-size: calc(1.8vw * var(--scale) + 1vw);
+}
+.fz16 {
+  font-size: calc(1.9vw * var(--scale) + 1vw);
+}
+.fz17 {
+  font-size: calc(2vw * var(--scale) + 1vw);
+}
+.fz18 {
+  font-size: calc(2.1vw * var(--scale) + 1vw);
+}
+.fz19 {
+  font-size: calc(2.2vw * var(--scale) + 1vw);
+}
+.fz20 {
+  font-size: calc(2.3vw * var(--scale) + 1vw);
+}
+.fz21 {
+  font-size: calc(2.4vw * var(--scale) + 1vw);
+}
+.fz22 {
+  font-size: calc(2.5vw * var(--scale) + 1vw);
+}
+.fz23 {
+  font-size: calc(2.6vw * var(--scale) + 1vw);
+}
+.fz24 {
+  font-size: calc(2.7vw * var(--scale) + 1vw);
+}
+.fz25 {
+  font-size: calc(2.8vw * var(--scale) + 1vw);
+}
+.fz26 {
+  font-size: calc(2.9vw * var(--scale) + 1vw);
+}
+.fz27 {
+  font-size: calc(3vw * var(--scale) + 1vw);
+}
+.fz28 {
+  font-size: calc(3.1vw * var(--scale) + 1vw);
+}
+.fz29 {
+  font-size: calc(3.2vw * var(--scale) + 1vw);
+}
+.fz30 {
+  font-size: calc(3.3vw * var(--scale) + 1vw);
+}
+.fz31 {
+  font-size: calc(3.4vw * var(--scale) + 1vw);
+}
+.fz32 {
+  font-size: calc(3.5vw * var(--scale) + 1vw);
+}
+.fz33 {
+  font-size: calc(3.6vw * var(--scale) + 1vw);
+}
+.fz34 {
+  font-size: calc(3.7vw * var(--scale) + 1vw);
+}
+.fz35 {
+  font-size: calc(3.8vw * var(--scale) + 1vw);
+}
+.fz36 {
+  font-size: calc(3.9vw * var(--scale) + 1vw);
+}
+.fz37 {
+  font-size: calc(4vw * var(--scale) + 1vw);
+}
+.fz38 {
+  font-size: calc(4.1vw * var(--scale) + 1vw);
+}
+.fz39 {
+  font-size: calc(4.2vw * var(--scale) + 1vw);
+}
+.fz40 {
+  font-size: calc(4.3vw * var(--scale) + 1vw);
+}
+.fz41 {
+  font-size: calc(4.4vw * var(--scale) + 1vw);
+}
+.fz42 {
+  font-size: calc(4.5vw * var(--scale) + 1vw);
+}
+.fz43 {
+  font-size: calc(4.6vw * var(--scale) + 1vw);
+}
+.fz44 {
+  font-size: calc(4.7vw * var(--scale) + 1vw);
+}
+.fz45 {
+  font-size: calc(4.8vw * var(--scale) + 1vw);
+}
+.fz46 {
+  font-size: calc(4.9vw * var(--scale) + 1vw);
+}
+.fz47 {
+  font-size: calc(5vw * var(--scale) + 1vw);
+}
+.fz48 {
+  font-size: calc(5.1vw * var(--scale) + 1vw);
+}
+.fz49 {
+  font-size: calc(5.2vw * var(--scale) + 1vw);
+}
+.fz50 {
+  font-size: calc(5.3vw * var(--scale) + 1vw);
+}
+.fz51 {
+  font-size: calc(5.4vw * var(--scale) + 1vw);
+}
+.fz52 {
+  font-size: calc(5.5vw * var(--scale) + 1vw);
+}
+.fz53 {
+  font-size: calc(5.6vw * var(--scale) + 1vw);
+}
+.fz54 {
+  font-size: calc(5.7vw * var(--scale) + 1vw);
+}
+.fz55 {
+  font-size: calc(5.8vw * var(--scale) + 1vw);
+}
+.fz56 {
+  font-size: calc(5.9vw * var(--scale) + 1vw);
+}
+.fz57 {
+  font-size: calc(6vw * var(--scale) + 1vw);
+}
+.fz58 {
+  font-size: calc(6.1vw * var(--scale) + 1vw);
+}
+.fz59 {
+  font-size: calc(6.2vw * var(--scale) + 1vw);
+}
+.fz60 {
+  font-size: calc(6.3vw * var(--scale) + 1vw);
+}
+.fz61 {
+  font-size: calc(6.4vw * var(--scale) + 1vw);
+}
+.fz62 {
+  font-size: calc(6.5vw * var(--scale) + 1vw);
+}
+.fz63 {
+  font-size: calc(6.6vw * var(--scale) + 1vw);
+}
+.fz64 {
+  font-size: calc(6.7vw * var(--scale) + 1vw);
+}
+.fz65 {
+  font-size: calc(6.8vw * var(--scale) + 1vw);
+}
+.fz66 {
+  font-size: calc(6.9vw * var(--scale) + 1vw);
+}
+.fz67 {
+  font-size: calc(7vw * var(--scale) + 1vw);
+}
+.fz68 {
+  font-size: calc(7.1vw * var(--scale) + 1vw);
+}
+.fz69 {
+  font-size: calc(7.2vw * var(--scale) + 1vw);
+}
+.fz70 {
+  font-size: calc(7.3vw * var(--scale) + 1vw);
+}
+@media (min-width: 768px) {
+  .fz10 {
+    font-size: 10px;
+  }
+  .fz11 {
+    font-size: 11px;
+  }
+  .fz12 {
+    font-size: 12px;
+  }
+  .fz13 {
+    font-size: 13px;
+  }
+  .fz14 {
+    font-size: 14px;
+  }
+  .fz15 {
+    font-size: 15px;
+  }
+  .fz16 {
+    font-size: 16px;
+  }
+  .fz17 {
+    font-size: 17px;
+  }
+  .fz18 {
+    font-size: 18px;
+  }
+  .fz19 {
+    font-size: 19px;
+  }
+  .fz20 {
+    font-size: 20px;
+  }
+  .fz21 {
+    font-size: 21px;
+  }
+  .fz22 {
+    font-size: 22px;
+  }
+  .fz23 {
+    font-size: 23px;
+  }
+  .fz24 {
+    font-size: 24px;
+  }
+  .fz25 {
+    font-size: 25px;
+  }
+  .fz26 {
+    font-size: 26px;
+  }
+  .fz27 {
+    font-size: 27px;
+  }
+  .fz28 {
+    font-size: 28px;
+  }
+  .fz29 {
+    font-size: 29px;
+  }
+  .fz30 {
+    font-size: 30px;
+  }
+  .fz31 {
+    font-size: 31px;
+  }
+  .fz32 {
+    font-size: 32px;
+  }
+  .fz33 {
+    font-size: 33px;
+  }
+  .fz34 {
+    font-size: 34px;
+  }
+  .fz35 {
+    font-size: 35px;
+  }
+  .fz36 {
+    font-size: 36px;
+  }
+  .fz37 {
+    font-size: 37px;
+  }
+  .fz38 {
+    font-size: 38px;
+  }
+  .fz39 {
+    font-size: 39px;
+  }
+  .fz40 {
+    font-size: 40px;
+  }
+  .fz41 {
+    font-size: 41px;
+  }
+  .fz42 {
+    font-size: 42px;
+  }
+  .fz43 {
+    font-size: 43px;
+  }
+  .fz44 {
+    font-size: 44px;
+  }
+  .fz45 {
+    font-size: 45px;
+  }
+  .fz46 {
+    font-size: 46px;
+  }
+  .fz47 {
+    font-size: 47px;
+  }
+  .fz48 {
+    font-size: 48px;
+  }
+  .fz49 {
+    font-size: 49px;
+  }
+  .fz50 {
+    font-size: 50px;
+  }
+  .fz51 {
+    font-size: 51px;
+  }
+  .fz52 {
+    font-size: 52px;
+  }
+  .fz53 {
+    font-size: 53px;
+  }
+  .fz54 {
+    font-size: 54px;
+  }
+  .fz55 {
+    font-size: 55px;
+  }
+  .fz56 {
+    font-size: 56px;
+  }
+  .fz57 {
+    font-size: 57px;
+  }
+  .fz58 {
+    font-size: 58px;
+  }
+  .fz59 {
+    font-size: 59px;
+  }
+  .fz60 {
+    font-size: 60px;
+  }
+  .fz61 {
+    font-size: 61px;
+  }
+  .fz62 {
+    font-size: 62px;
+  }
+  .fz63 {
+    font-size: 63px;
+  }
+  .fz64 {
+    font-size: 64px;
+  }
+  .fz65 {
+    font-size: 65px;
+  }
+  .fz66 {
+    font-size: 66px;
+  }
+  .fz67 {
+    font-size: 67px;
+  }
+  .fz68 {
+    font-size: 68px;
+  }
+  .fz69 {
+    font-size: 69px;
+  }
+  .fz70 {
+    font-size: 70px;
+  }
+}
+.fw400 {
+  font-weight: 400;
+}
+.fw500 {
+  font-weight: 500;
+}
+.fw600 {
+  font-weight: 600;
+}
+.fw700 {
+  font-weight: 700;
+}
