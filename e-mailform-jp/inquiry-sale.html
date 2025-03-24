@@ -76,7 +76,7 @@
                         </div>
                         <div class="fcform__main">
                             <div class="fc-form" data-multiple="sale" data-display="slide" data-debug="false" data-language="jp">
-                                <!-- <div class="form-row">
+                                <div class="form-row">
                                     <div class="form-caption vtop">
                                         <div class="caption-inline">
                                             <span class="caption--askerisk">必須</span>
@@ -84,37 +84,11 @@
                                         </div>
                                     </div>
                                     <div class="form-value">
-                                        <input type="text" name="fullname" value="" placeholder="山田　太郎" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':'fullname'});">
-                                        <div class="error">必須項目です</div>
-                                    </div>
-                                </div> -->
-
-                                <div class="form-row">
-                                    <div class="form-caption vtop">
-                                        <div class="caption-inline">
-                                            <span class="caption--askerisk">必須</span>
-                                            <span class="caption--text" data-for="companyname">会社・屋号</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-value">
-                                        <input type="text" name="companyname" value="" placeholder="山田　太郎" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':'companyname'});">
+                                        <input type="text" name="fullname" value="" placeholder="山田　太郎" class="require"
+                                               onfocus="gtag('event','input',{'event_category':'form','event_label':'fullname'});">
                                         <div class="error">必須項目です</div>
                                     </div>
                                 </div>
-
-                                <div class="form-row">
-                                    <div class="form-caption vtop">
-                                        <div class="caption-inline">
-                                            <span class="caption--askerisk">必須</span>
-                                            <span class="caption--text" data-for="ResponsiblePersonName">ご担当者様名</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-value">
-                                        <input type="text" name="ResponsiblePersonName" value="" placeholder="山田　太郎" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':'ResponsiblePersonName'});">
-                                        <div class="error">必須項目です</div>
-                                    </div>
-                                </div>
-
                                 <div class="form-row">
                                     <div class="form-caption vtop">
                                         <div class="caption-inline">
@@ -130,12 +104,13 @@
                                 <div class="form-row">
                                     <div class="form-caption vtop">
                                         <div class="caption-inline">
-                                            <span class="caption--askerisk">必須</span>
-                                            <span class="caption--text" data-for="phone">お電話番号</span>
+                                            <span class="caption--text" data-for="phone">電話番号</span>
                                         </div>
                                     </div>
                                     <div class="form-value">
-                                        <input class="require" type="tel" name="phone" value="" placeholder="01234567890" class="check-phone" onfocus="gtag('event','input',{'event_category':'form','event_label':'phone'});">
+                                        <input type="tel" name="phone" value="" placeholder="01234567890"
+                                               class="check-phone"
+                                               onfocus="gtag('event','input',{'event_category':'form','event_label':'phone'});">
                                         <div class="error-phone">正しい形式で入力してください</div>
                                     </div>
                                 </div>
@@ -143,40 +118,16 @@
                                     <div class="form-caption vtop">
                                         <div class="caption-inline">
                                             <span class="caption--askerisk">必須</span>
-                                            <span class="caption--text" data-for="email">メールアドレス</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-value">
-                                        <input type="email" name="email" value="" placeholder="xxx@xxx.com" class="require check-email" onfocus="gtag('event','input',{'event_category':'form','event_label':'email'});">
-                                        <div class="error">必須項目です</div>
-                                        <div class="error-email">正しい形式で入力してください</div>
-                                    </div>
-                                </div>
-
-                                <div class="form-row">
-                                    <div class="form-caption vtop">
-                                        <div class="caption-inline">
-                                            <span class="caption--askerisk">必須</span>
-                                            <span class="caption--text" data-for="address">ご住所</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-value">
-                                        <input type="text" name="address" value="" placeholder="東京都〇〇区" class="require" onfocus="gtag('event','input',{'event_category':'form','event_label':' address '});">
-                                        <div class="error">必須項目です</div>
-                                    </div>
-                                </div>
-
-                                <div class="form-row">
-                                    <div class="form-caption vtop">
-                                        <div class="caption-inline">
                                             <span class="caption--text" data-for="message">お問い合わせ内容（備考）</span>
                                         </div>
                                     </div>
                                     <div class="form-value">
-                                        <textarea name="message" onfocus="gtag('event','input',{'event_category':'form','event_label':'message'});"></textarea>
+                                        <textarea name="message" class="require"
+                                                  onfocus="gtag('event','input',{'event_category':'form','event_label':'message'});"></textarea>
                                         <div class="error">必須項目です</div>
                                     </div>
                                 </div>
+    
 
                                 <div class="confirm-hide">
 
